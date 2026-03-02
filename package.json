@@ -1,0 +1,24 @@
+{
+  "name": "ai-tool-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lil-El/ai-tool-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lil-El/ai-tool-test/issues"
+  },
+  "homepage": "https://github.com/Lil-El/ai-tool-test#readme",
+  "description": "",
+  "dependencies": {
+    "@langchain/openai": "^1.2.11",
+    "dotenv": "^17.3.1"
+  }
+}
