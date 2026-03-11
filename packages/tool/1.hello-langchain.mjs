@@ -1,6 +1,7 @@
 import dotenv from "dotenv";
 import { ChatOpenAI } from "@langchain/openai";
 
+// .env 文件位于 monorepo 根目录下，所以需要向上两级路径
 dotenv.config();
 
 const model = new ChatOpenAI({

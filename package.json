@@ -1,22 +1,27 @@
 {
-  "name": "ai-tool-test",
+  "name": "ai-agent-learn",
   "version": "1.0.0",
   "main": "index.js",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node packages/tool/1.hello-langchain.mjs"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lil-El/ai-tool-test.git"
+    "url": "git+https://github.com/Lil-El/ai-agent-learn.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "lil-el",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Lil-El/ai-tool-test/issues"
+    "url": "https://github.com/Lil-El/ai-agent-learn/issues"
   },
-  "homepage": "https://github.com/Lil-El/ai-tool-test#readme",
-  "description": "",
+  "homepage": "https://github.com/Lil-El/ai-agent-learn#readme",
+  "description": "Ai Agent Learn.",
+  "workspaces": [
+    "packages/*"
+  ],
   "dependencies": {
     "@langchain/core": "^1.1.29",
     "@langchain/mcp-adapters": "^1.1.3",
